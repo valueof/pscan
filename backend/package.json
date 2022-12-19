@@ -1,0 +1,23 @@
+{
+  "name": "pscan",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node build/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anton Kovalyov",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.15",
+    "@types/node": "^18.11.17"
+  },
+  "dependencies": {
+    "@types/sqlite3": "^3.1.8",
+    "express": "^4.18.2",
+    "sqlite": "^4.1.2",
+    "sqlite3": "^5.1.4"
+  }
+}
